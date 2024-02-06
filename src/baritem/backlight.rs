@@ -29,7 +29,7 @@ impl Backlight {
             icons: vec![
                 '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
             ],
-            color: Color::nord_white(),
+            color: Color::catppuccin_white(),
         }
     }
 

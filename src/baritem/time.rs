@@ -22,8 +22,8 @@ impl BarItem for Clock {
 impl Clock {
     pub fn new() -> Self {
         Clock {
-            icon_color: Color::nord_orange(),
-            date_color: Color::nord_orange(),
+            icon_color: Color::catppucin_red(),
+            date_color: Color::catppucin_red(),
         }
     }
 

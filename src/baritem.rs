@@ -2,9 +2,7 @@ pub mod audio;
 pub mod backlight;
 pub mod charge;
 pub mod network;
-pub mod spotify;
 pub mod time;
-pub mod weather;
 
 pub static BAR_HEIGHT: u32 = 62;
 
@@ -25,18 +23,18 @@ pub fn icon_from_percent(icons: &[char], percent: u32) -> &char {
 }
 
 impl Color {
-    pub fn nord_white() -> Self {
+    pub fn catppuccin_white() -> Self {
         Color {
-            r: 216,
-            g: 222,
-            b: 233,
+            r: 205,
+            g: 214,
+            b: 244,
         }
     }
-    pub fn nord_red() -> Self {
+    pub fn catppucin_red() -> Self {
         Color {
-            r: 191,
-            g: 97,
-            b: 106,
+            r: 243,
+            g: 139,
+            b: 168,
         }
     }
     pub fn nord_orange() -> Self {
@@ -60,18 +58,18 @@ impl Color {
             b: 140,
         }
     }
-    pub fn nord_purple() -> Self {
+    pub fn catppucin_muave() -> Self {
         Color {
-            r: 180,
-            g: 142,
-            b: 173,
+            r: 203,
+            g: 166,
+            b: 247,
         }
     }
-    pub fn nord_blue() -> Self {
+    pub fn catppuccin_blue() -> Self {
         Color {
-            r: 129,
-            g: 161,
-            b: 193,
+            r: 137,
+            g: 180,
+            b: 250,
         }
     }
 

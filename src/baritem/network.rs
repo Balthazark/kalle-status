@@ -57,11 +57,11 @@ impl Network {
         Network {
             id: id.to_string(),
             quality_re: Regex::new(r"Link Quality=(?<qual>\d+)[/](?<max>\d+)").unwrap(),
-            icons: vec!['󰤯', '󰤟', '󰤢', '󰤥', '󰤨'],
-            icon_color: Color::nord_yellow(),
-            essid_color: Color::nord_yellow(),
-            icon_disc_color: Color::nord_white(),
-            text_disc_color: Color::nord_white(),
+            icons: vec!['󰤯', '󰤨', '󰤨', '󰤨', '󰤨'],
+            icon_color: Color::catppucin_muave(),
+            essid_color: Color::catppucin_muave(),
+            icon_disc_color: Color::catppuccin_white(),
+            text_disc_color: Color::catppuccin_white(),
         }
     }
 

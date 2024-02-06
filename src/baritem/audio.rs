@@ -19,10 +19,10 @@ impl Audio {
     pub fn new() -> Self {
         Audio {
             regex: Regex::new(r"(?<perc>\d+)%").unwrap(),
-            fill_color: Color::nord_blue(),
-            sep_color: Color::nord_blue(),
-            emp_color: Color::nord_white(),
-            icon_color: Color::nord_blue(),
+            fill_color: Color::catppuccin_blue(),
+            sep_color: Color::catppuccin_blue(),
+            emp_color: Color::catppuccin_white(),
+            icon_color: Color::catppuccin_blue(),
             sep_height: 22,
             fill_height: 2,
             sep_width: 2,
